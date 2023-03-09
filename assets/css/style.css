@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --header-font-color: #c972e8;
+}
+
+html,
+body {
+    min-height: 100%;
+    overflow-x: hidden;
+}
+
+body {
+    background-color: #393c42;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+header {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    color: var(--header-font-color);
+    margin: 5vh 0;
+}
+
+header p {
+    width: 75%;
+    color: whitesmoke;
+    margin-bottom: 5vh;
+}
+
+/* MAIN STYLES START */
